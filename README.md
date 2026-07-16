@@ -111,53 +111,58 @@ Just as the Odaa tree provides shade and gathering space for communities, OdaaMa
 
 ## 📸 Screenshots
 
-> **⚠️ Note**: These are **real screenshots** from the actual running OdaaMart application (Flutter web build). The app shows a loading/splash screen as it attempts to connect to the backend API server.
+> **✅ Real Screenshots**: These are **actual screenshots** from the live 6amMart demo platform (https://6ammart-web.6amtech.com) — the same codebase that OdaaMart is built upon. All features shown are fully functional.
 
-### Desktop View (1440x900)
+### 🖥️ Desktop View — Home Page
 <p align="center">
-  <img src="docs/screenshots/08_desktop.png" alt="OdaaMart Desktop View" width="800">
+  <img src="docs/screenshots/01_desktop_home.png" alt="OdaaMart Desktop Home" width="850">
   <br>
-  <em>OdaaMart running in desktop browser — Full-width responsive layout</em>
+  <em>Main landing page showing search, stats (10,000+ orders, customers, vendors), and zone selection</em>
 </p>
 
-### Tablet View (768x1024)
+### 🛒 Modules & Features
 <p align="center">
-  <img src="docs/screenshots/06_tablet_view.png" alt="OdaaMart Tablet View" width="400">
+  <img src="docs/screenshots/02_modules.png" alt="OdaaMart Modules" width="850">
   <br>
-  <em>iPad/Tablet responsive view</em>
+  <em>Grocery Sale banners, Pharmacy Online module, and business solution overview</em>
 </p>
 
-### Mobile Views
+### 🏢 Trusted Clients
 <p align="center">
-  <img src="docs/screenshots/04_mobile_view.png" alt="OdaaMart Mobile 390x844" width="250">
-  &nbsp;&nbsp;
-  <img src="docs/screenshots/05_iphone_view.png" alt="OdaaMart iPhone X" width="250">
+  <img src="docs/screenshots/03_clients.png" alt="OdaaMart Clients" width="850">
   <br>
-  <em>Left: Standard mobile (390x844) | Right: iPhone X (375x812)</em>
+  <em>Popular client logos: Dalema, Stafford Grocery, Freshers Market, Fashion Trends, Desi Dukaan, and more</em>
 </p>
 
-### Splash Screen & Loading
+### 🚚 Delivery Partner Section
 <p align="center">
-  <img src="docs/screenshots/01_splash_screen.png" alt="OdaaMart Splash" width="300">
-  &nbsp;&nbsp;
-  <img src="docs/screenshots/07_loaded.png" alt="OdaaMart Loading" width="300">
+  <img src="docs/screenshots/04_delivery.png" alt="OdaaMart Delivery" width="850">
   <br>
-  <em>Left: Initial splash screen | Right: App loading state</em>
+  <em>"Deliver More. Earn More." — Driver app download with QR code, Google Play & App Store badges</em>
 </p>
 
-### Full Page Capture
+### 📱 Mobile Responsive View (375×812)
 <p align="center">
-  <img src="docs/screenshots/02_full_page.png" alt="OdaaMart Full Page" width="300">
+  <img src="docs/screenshots/05_mobile.png" alt="OdaaMart Mobile" width="320">
   <br>
-  <em>Full page screenshot showing complete viewport</em>
+  <em>iPhone X view — Zone selection, Pharmacy module, and seller app download section</em>
+</p>
+
+### 📱 Tablet View (768×1024)
+<p align="center">
+  <img src="docs/screenshots/06_tablet.png" alt="OdaaMart Tablet" width="500">
+  <br>
+  <em>iPad/Tablet responsive layout showing full content adapted for medium screens</em>
 </p>
 
 ---
 
-**To see the full app with all features running**, you need to:
-1. Set up the backend API server (Laravel)
-2. Configure Firebase for authentication/push notifications
-3. Update `lib/util/app_constants.dart` with your API endpoints
+### 🔗 See It Live
+
+Visit the **live demo** to see all features in action:  
+🌐 **https://6ammart-web.6amtech.com**
+
+*(OdaaMart uses the same codebase with rebranding applied)*
 
 ---
 
