@@ -1,5 +1,7 @@
 <p align="center">
-  <img src="docs/screenshots/hero_banner.png" alt="OdaaMart Hero Banner" width="100%">
+  <img src="docs/screenshots/08_desktop.png" alt="OdaaMart Running Live" width="100%">
+  <br>
+  <em>✅ OdaaMart running live — Real screenshot from actual Flutter web build</em>
 </p>
 
 <h1 align="center">
@@ -109,40 +111,53 @@ Just as the Odaa tree provides shade and gathering space for communities, OdaaMa
 
 ## 📸 Screenshots
 
-### Home Dashboard
+> **⚠️ Note**: These are **real screenshots** from the actual running OdaaMart application (Flutter web build). The app shows a loading/splash screen as it attempts to connect to the backend API server.
+
+### Desktop View (1440x900)
 <p align="center">
-  <img src="docs/screenshots/01_home.png" alt="OdaaMart Home Screen" width="300">
+  <img src="docs/screenshots/08_desktop.png" alt="OdaaMart Desktop View" width="800">
   <br>
-  <em>Clean, intuitive home screen with personalized recommendations</em>
+  <em>OdaaMart running in desktop browser — Full-width responsive layout</em>
 </p>
 
-### Grocery Shopping
+### Tablet View (768x1024)
 <p align="center">
-  <img src="docs/screenshots/02_grocery.png" alt="OdaaMart Grocery Screen" width="300">
+  <img src="docs/screenshots/06_tablet_view.png" alt="OdaaMart Tablet View" width="400">
   <br>
-  <em>Browse fresh groceries with category filters and quick add-to-cart</em>
+  <em>iPad/Tablet responsive view</em>
 </p>
 
-### Food Delivery
+### Mobile Views
 <p align="center">
-  <img src="docs/screenshots/03_food.png" alt="OdaaMart Food Delivery Screen" width="300">
+  <img src="docs/screenshots/04_mobile_view.png" alt="OdaaMart Mobile 390x844" width="250">
+  &nbsp;&nbsp;
+  <img src="docs/screenshots/05_iphone_view.png" alt="OdaaMart iPhone X" width="250">
   <br>
-  <em>Order from favorite restaurants with real-time menu updates</em>
+  <em>Left: Standard mobile (390x844) | Right: iPhone X (375x812)</em>
 </p>
 
-### Pharmacy & Health
+### Splash Screen & Loading
 <p align="center">
-  <img src="docs/screenshots/04_pharmacy.png" alt="OdaaMart Pharmacy Screen" width="300">
+  <img src="docs/screenshots/01_splash_screen.png" alt="OdaaMart Splash" width="300">
+  &nbsp;&nbsp;
+  <img src="docs/screenshots/07_loaded.png" alt="OdaaMart Loading" width="300">
   <br>
-  <em>Safely order medicines with prescription upload option</em>
+  <em>Left: Initial splash screen | Right: App loading state</em>
 </p>
 
-### Parcel Tracking
+### Full Page Capture
 <p align="center">
-  <img src="docs/screenshots/05_parcel.png" alt="OdaaMart Parcel Tracking Screen" width="300">
+  <img src="docs/screenshots/02_full_page.png" alt="OdaaMart Full Page" width="300">
   <br>
-  <em>Track packages in real-time with live map integration</em>
+  <em>Full page screenshot showing complete viewport</em>
 </p>
+
+---
+
+**To see the full app with all features running**, you need to:
+1. Set up the backend API server (Laravel)
+2. Configure Firebase for authentication/push notifications
+3. Update `lib/util/app_constants.dart` with your API endpoints
 
 ---
 
