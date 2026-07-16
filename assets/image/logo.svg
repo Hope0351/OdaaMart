@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A7C23;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2D5016;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="trunkGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#8B5A2B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6B4423;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="#FAF8F0" stroke="#2D5016" stroke-width="2"/>
+  
+  <!-- Tree trunk -->
+  <rect x="90" y="120" width="20" height="50" rx="3" fill="url(#trunkGrad)"/>
+  
+  <!-- Canopy/Odaa tree crown - stylized leaves -->
+  <ellipse cx="100" cy="85" rx="55" ry="45" fill="url(#leafGrad)"/>
+  
+  <!-- Leaf details -->
+  <ellipse cx="70" cy="75" rx="25" ry="20" fill="#4A7C23" opacity="0.8"/>
+  <ellipse cx="130" cy="75" rx="25" ry="20" fill="#4A7C23" opacity="0.8"/>
+  <ellipse cx="100" cy="55" rx="30" ry="22" fill="#5A9C33" opacity="0.9"/>
+  
+  <!-- Odaa flowers (golden dots) -->
+  <circle cx="80" cy="65" r="4" fill="#D4A017"/>
+  <circle cx="115" cy="70" r="3" fill="#D4A017"/>
+  <circle cx="100" cy="50" r="3.5" fill="#D4A017"/>
+  <circle cx="125" cy="58" r="3" fill="#E8B828"/>
+  
+  <!-- Text -->
+  <text x="100" y="180" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2D5016" text-anchor="middle">OdaaMart</text>
+</svg>
